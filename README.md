@@ -1,7 +1,7 @@
 # BestHPCCoAWS
 Scripts for configuring and deploying an HPCC on AWS that is high well.
 
-The following is a list of steps to deploy a high performing HPCC cluster on AWS
+Detailed documentation still needs to be written. But, the following is a list of steps to deploy a high performing HPCC cluster on AWS
 
 1.	Fill in cfg_BestHPCC.sh (in the instance_files directory), the configuration table with the following info. Included ctg_BestHPCC.sh
 	contains parameter values used to create a high performance HPCC on AWS
