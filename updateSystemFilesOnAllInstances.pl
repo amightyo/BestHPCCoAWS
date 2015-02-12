@@ -1,10 +1,10 @@
- #!/usr/bin/perl
- #=pod
- # Note: The following 2 examples assume you are in the directory, $share/naveens_data
- # Use the following if instances are Amazon linux AMIs
- #
- # perl updateSystemFilesOnAllInstances.pl public_ips.txt ec2-user tlh_keys_us_west_2.pem
- #=cut
+#!/usr/bin/perl
+=pod
+ Note: The following 2 examples assume you are in the directory, $share/naveens_data
+ Use the following if instances are Amazon linux AMIs
+
+ perl updateSystemFilesOnAllInstances.pl public_ips.txt ec2-user tlh_keys_us_west_2.pem
+=cut
 
 require "getConfigurationFile.pl";
 =pod
